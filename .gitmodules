@@ -1,3 +1,6 @@
 [submodule "plugins/source/auto-pairs"]
 	path = plugins/source/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.vim
+[submodule "plugins/source/vim-polyglot"]
+	path = plugins/source/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.vim
