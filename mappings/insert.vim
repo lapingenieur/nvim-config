@@ -34,3 +34,7 @@
 :inoremap iif <C-x><C-f>
 :inoremap iin <C-x><C-n>
 :inoremap iiN <C-x><C-n>
+
+" <TAB>: completion.
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<TAB>"

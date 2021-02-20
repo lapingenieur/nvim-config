@@ -4,9 +4,6 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-" navigation (tab/TAB = next/prev buffer)
-nnoremap <TAB> :bnext<CR>
-nnoremap <S-TAB> :bprevious<CR>
 " resizing (M-hjkl)
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
@@ -32,12 +29,10 @@ nnoremap <M-u> viwu<Esc>
 vnoremap < <gv
 vnoremap > >gv
 
-" <TAB>: completion.
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
 " ================================ terminal mode remappings
 
-:tnoremap iit <C-w>N
+:tnoremap iit <C-\><C-n>
+:tnoremap iii ii
