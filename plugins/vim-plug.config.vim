@@ -2,8 +2,6 @@ call plug#begin('~/.config/nvim/plugins/source')
     " === General
     " Auto Pairs
     Plug 'jiangmiao/auto-pairs'
-    " Stable version of coc
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " === Status lines
     " Airline and its theme repo
@@ -13,6 +11,8 @@ call plug#begin('~/.config/nvim/plugins/source')
     " === Syntax support
     " Better syntax support
     Plug 'sheerun/vim-polyglot'
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " === Colorschemes
     " onedark - for tests
