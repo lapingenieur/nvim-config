@@ -4,3 +4,18 @@
 [submodule "plugins/source/vim-polyglot"]
 	path = plugins/source/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.vim
+[submodule "plugins/source/coc.nvim"]
+	path = plugins/source/coc.nvim
+	url = https://github.com/neoclide/coc.vim
+[submodule "plugins/source/onedark.vim"]
+	path = plugins/source/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule "plugins/source/sonokai"]
+	path = plugins/source/sonokai
+	url = https://github.com/sainnhe/sonokai
+[submodule "plugins/source/vim-airline"]
+	path = plugins/source/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "plugins/source/vim-airline-themes"]
+	path = plugins/source/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
