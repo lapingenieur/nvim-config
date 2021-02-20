@@ -4,6 +4,9 @@
 :nnoremap yy y$
 :nnoremap , $
 
+:nnoremap <C-q> :q<Cr>
+:nnoremap <C-s> :w<Cr>
+:nnoremap <Space>q :q<Cr>
 :nnoremap <Space>w :w<Cr>
 :nnoremap <Space>o o<Space><Bs><Esc>
 :nnoremap <Space>O O<Space><Bs><Esc>

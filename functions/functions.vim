@@ -15,7 +15,7 @@ let g:mytabsvar = 0
 
 fun! Mytabs()
     if g:mytabsvar == 0
-        echo "Mytabs : entering tab mode"
+        echo "Mytabs : tab mode enabled, 1"
         let g:mytabsvar = 1
 
         " navigation (C-hjkl)
@@ -27,8 +27,9 @@ fun! Mytabs()
         " new tab
         nnoremap <Space>n :tabe<Cr>
         nnoremap <Space>N :tabe<Cr>:e<Space>
+        nnoremap <C-n> :tabe<Cr>:e<Space>
     else
-        echo "Mytabs : reseting tab mode"
+        echo "Mytabs : tab mode disabled, 0"
         let g:mytabsvar = 0
 
         " navigation (C-hjkl)
@@ -40,6 +41,7 @@ fun! Mytabs()
         " new vertical split
         nnoremap <Space>n :vs<Cr>
         nnoremap <Space>N :vs<Space>
+        nnoremap <C-n> :vs<Space>
     endif
 endfun
 
@@ -78,10 +80,10 @@ fun! Myman()
 		vnoremap k H8k
 		nnoremap j L8j
 		nnoremap k H8k
-		vnoremap J L20j
-		vnoremap K H20k
-		nnoremap J L20j
-		nnoremap K H20k
+		vnoremap J L10j10j
+		vnoremap K H10k10k
+		nnoremap J L10j10j
+		nnoremap K H10k10k
 		echo "Myman : man mode enabled, 1"
 	else
 		if g:mymanvar != "1"

@@ -5,6 +5,9 @@
 :inoremap iiW <Esc>:w<Cr>
 :inoremap iiw <Esc>:w<Cr>a
 
+:inoremap iio <Esc>o
+:inoremap iiO <Esc>O
+
 :inoremap ii$ <Esc>A
 :inoremap ii^ <Esc>I
 :inoremap ii0 <Esc>gI

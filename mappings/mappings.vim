@@ -19,8 +19,8 @@ nnoremap <M-l>    :vertical resize +2<CR>
 "================================ General
 
 " Use control-c instead of escape
-nnoremap <C-c> <Esc>
-inoremap <C-c> <Esc>
+nnoremap <C-c> <Esc>:noh<Cr>
+inoremap <C-c> <Esc>:noh<Cr>
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
