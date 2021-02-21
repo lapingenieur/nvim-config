@@ -2,3 +2,5 @@
 *.gti
 *.swp
 *.swo
+node_modules/
+TODO.README
