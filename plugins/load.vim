@@ -2,3 +2,6 @@
 
 source ~/.config/nvim/plugins/vim-plug.config.vim   " vim-plug config
 source ~/.config/nvim/plugins/plugins.config.vim    " plugins's config
+
+" COC's config is appart of the others because it's very large
+source ~/.config/nvim/plugins/coc.config.vim        " COC's config is here

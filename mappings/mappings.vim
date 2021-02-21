@@ -18,6 +18,8 @@ nnoremap <M-l>    :vertical resize +2<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>:noh<Cr>
 inoremap <C-c> <Esc>:noh<Cr>
+xnoremap <C-c> <Esc>:noh<Cr>
+vnoremap <C-c> <Esc>:noh<Cr>
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
@@ -36,3 +38,5 @@ nnoremap <Leader>O O<Esc>^Da
 
 :tnoremap iit <C-\><C-n>
 :tnoremap iii ii
+
+" ================================ command mode remappings

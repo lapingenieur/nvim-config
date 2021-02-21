@@ -17,8 +17,8 @@ nnoremap <S-TAB> :bprevious<CR>
 :nnoremap <Space>o o<Space><Bs><Esc>
 :nnoremap <Space>O O<Space><Bs><Esc>
 
-:nnoremap <Space>e :Eterm
-:nnoremap <Space>E :tabe<Cr>:Eterm<Cr>
+:nnoremap <Space>e :e<space>
+
 " Eterm : defined in ../functions/functions.vim
 
 :nnoremap <Space>T :Myman<Cr>

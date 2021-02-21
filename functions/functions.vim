@@ -27,7 +27,6 @@ fun! Mytabs()
         " new tab
         nnoremap <Space>n :tabe<Cr>
         nnoremap <Space>N :tabe<Cr>:e<Space>
-        nnoremap <C-n> :tabe<Cr>:e<Space>
     else
         echo "Mytabs : tab mode disabled, 0"
         let g:mytabsvar = 0
@@ -41,7 +40,6 @@ fun! Mytabs()
         " new vertical split
         nnoremap <Space>n :vs<Cr>
         nnoremap <Space>N :vs<Space>
-        nnoremap <C-n> :vs<Space>
     endif
 endfun
 
