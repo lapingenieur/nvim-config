@@ -1,3 +1,45 @@
 {
+// general
       "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python", "vim", "bash", "shell", "sh"],
+// explorer
+  //"explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.file.showHiddenFiles": false,
+  "explorer.previewAction.onHover": false,
+  "explorer.trash.command": "mv --backup=numbered --suffix='.bak' %s",
+  "explorer.keyMappings.global": {
+    ".": "toggleHidden",
+    // open files or expand/collapse directories
+    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+    "c": ["expandable?", "cd", "open"],
+    "o": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+    "go": "open:select:keep",
+    "s": "open:vsplit",
+    "gs": "open:vsplit:keep",
+    //"v": "open:vsplit",
+    // previewOnHover managing : see il, ic, Il, Ic, II
+    "ii": "previewOnHover:enable:labeling",
+    "Il": "previewOnHover:enable:labeling",
+    "IL": "previewOnHover:enable:labeling",
+    "Ic": "previewOnHover:enable:content",
+    "IC": "previewOnHover:enable:content"
+  },
+  "explorer.git.icon.rootStatus.stashed": "*",
+  "explorer.git.icon.rootStatus.ahead": "⇡",
+  "explorer.git.icon.rootStatus.behind": "⇡",
+  "explorer.git.icon.rootStatus.conflicted": "~",
+  "explorer.git.icon.rootStatus.untracked": "?",
+  "explorer.git.icon.rootStatus.modified": "!",
+  "explorer.git.icon.rootStatus.added": "+",
+  "explorer.git.icon.rootStatus.deleted": "-",
+  "explorer.git.icon.rootStatus.renamed": "⇢",
+  "explorer.git.icon.status.modified": "!",
+  "explorer.git.icon.status.added": "+",
+  "explorer.git.icon.status.deleted": "-",
+  "explorer.git.icon.status.renamed": "⇢",
+  "explorer.git.icon.status.copied": "C",
+  "explorer.git.icon.status.unmerged": "~",
+  "explorer.git.icon.status.untracked": "?",
+  "explorer.git.icon.status.ignored": "x",
+  "explorer.diagnostic.displayMax": 50
 }
