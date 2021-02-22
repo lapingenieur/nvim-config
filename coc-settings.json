@@ -2,7 +2,7 @@
 // general
       "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python", "vim", "bash", "shell", "sh"],
 // explorer
-  //"explorer.width": 30,
+  "explorer.width": 35,
   "explorer.icon.enableNerdfont": true,
   "explorer.file.showHiddenFiles": false,
   "explorer.previewAction.onHover": false,

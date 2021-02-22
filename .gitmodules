@@ -19,3 +19,12 @@
 [submodule "plugins/source/vim-airline-themes"]
 	path = plugins/source/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "plugins/source/fzf"]
+	path = plugins/source/fzf
+	url = https://github.com/junegunn/fzf
+[submodule "plugins/source/fzf.vim"]
+	path = plugins/source/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "plugins/source/vim-rooter"]
+	path = plugins/source/vim-rooter
+	url = https://github.com/airblade/vim-rooter
