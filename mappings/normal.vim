@@ -16,7 +16,9 @@ nnoremap <S-TAB> :bprevious<CR>
 :nnoremap <Space>w :w<Cr>
 :nnoremap <Space>o o<Space><Bs><Esc>
 :nnoremap <Space>O O<Space><Bs><Esc>
+:nnoremap dc cc<Esc>
 
+" open new files
 :nnoremap <Space>e :e<space>
 
 " Eterm : defined in ../functions/functions.vim
@@ -27,3 +29,8 @@ nnoremap <S-TAB> :bprevious<CR>
 :nnoremap <C-m> :Myman<Cr>
 " Mytabs() : function loaded in ../functions/functions.vim
 " :Myman : loaded in ../functions/functions.vim
+
+" coc-explorer
+:nnoremap <Space>f :CocCommand<Space>explorer<Cr>
+:nnoremap <C-f> :CocCommand<Space>explorer<Cr>
+:nnoremap <M-f> :CocCommand<Space>explorer<space>--preset<space>floating<Cr>
