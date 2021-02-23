@@ -10,3 +10,7 @@ source ~/.config/nvim/plugins/coc-extensions.config.vim " COC's config is here
 " FZF's config :
 source ~/.config/nvim/plugins/fzf.config.vim        " FZF config
 source ~/.config/nvim/plugins/fzf.mappings.vim      " FZF config
+" 
+" LUA config
+" Saying termguicolors must be set, but this changes the colorscheme
+luafile ~/.config/nvim/plugins/plugins.config.lua

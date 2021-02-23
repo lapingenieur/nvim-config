@@ -20,6 +20,7 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " open new files
 :nnoremap <Space>e :e<space>
+:nnoremap <Space>E :tabe<space>
 
 " Eterm : defined in ../functions/functions.vim
 

@@ -2,6 +2,8 @@ call plug#begin('~/.config/nvim/plugins/source')
     " === General
     " Auto Pairs
     Plug 'jiangmiao/auto-pairs'
+    " Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
 
     " FZF
     " Make fzf look up until finds .git directory

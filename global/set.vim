@@ -1,5 +1,8 @@
 " set leader key
 "let g:mapleader = "\<Space>"
+if has('termguicolors')
+  set termguicolors
+endif
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -9,7 +12,7 @@ set fileencoding=utf-8                  " The encoding written to file
 set pumheight=20                        " Makes popup menu smaller
 set ruler              			            " Show the cursor position all the time
 "set cmdheight=2                         " More space for displaying messages
-"set iskeyword+=-                      	" treat dash separated words as a word text object
+set iskeyword+=-                      	" treat dash separated words as a word text object
 set mouse=a                             " Enable your mouse
 "set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right

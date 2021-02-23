@@ -28,3 +28,6 @@
 [submodule "plugins/source/vim-rooter"]
 	path = plugins/source/vim-rooter
 	url = https://github.com/airblade/vim-rooter
+[submodule "plugins/source/nvim-colorizer.lua"]
+	path = plugins/source/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua
