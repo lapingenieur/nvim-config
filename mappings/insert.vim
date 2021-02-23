@@ -1,5 +1,8 @@
 " insert mode remappings
 
+" vim-emoji (junegunn) plugin
+:inoremap <C-e> <C-x><:C-u>
+
 :inoremap iiq <Esc>
 :inoremap iia <Esc>
 :inoremap iiW <Esc>:w<Cr>
