@@ -5,6 +5,17 @@ call plug#begin('~/.config/nvim/plugins/source')
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
 
+    " === Junegunn stuff
+    " Hyperfocus writing (works with limelight)
+    Plug 'junegunn/limelight.vim'
+    " Goyo focusing (works with limelight)
+    Plug 'junegunn/goyo.vim'
+    " Emojis in (n)vim (syntax like in discord :xx:)
+    Plug 'junegunn/vim-emoji'
+    " Easy alignment on several line
+    " **VERY** good doc over its github page
+    Plug 'junegunn/vim-easy-align'
+
     " FZF
     " Make fzf look up until finds .git directory
     " so it looks inside project
@@ -28,4 +39,6 @@ call plug#begin('~/.config/nvim/plugins/source')
     Plug 'joshdick/onedark.vim'
     " sonokai - monokai clone
     Plug 'sainnhe/sonokai'
+    " seoul256 - seoul clone from junegunn
+    Plug 'junegunn/seoul256.vim'
 call plug#end()

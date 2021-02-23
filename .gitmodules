@@ -31,3 +31,18 @@
 [submodule "plugins/source/nvim-colorizer.lua"]
 	path = plugins/source/nvim-colorizer.lua
 	url = https://github.com/norcalli/nvim-colorizer.lua
+[submodule "plugins/source/seoul256.vim"]
+	path = plugins/source/seoul256.vim
+	url = https://github.com/junegunn/seoul256.vim
+[submodule "plugins/source/goyo.vim"]
+	path = plugins/source/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
+[submodule "plugins/source/limelight.vim"]
+	path = plugins/source/limelight.vim
+	url = https://github.com/junegunn/limelight.vim
+[submodule "plugins/source/vim-easy-align"]
+	path = plugins/source/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
+[submodule "plugins/source/vim-emoji"]
+	path = plugins/source/vim-emoji
+	url = https://github.com/junegunn/vim-emoji

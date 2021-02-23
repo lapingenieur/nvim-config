@@ -41,6 +41,8 @@ set wildmenu
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 au! BufWritePost $MYVIMRC echo "reloaded init.vim"
+au! VimEnter * :set completefunc=emoji#complete
+au! BufAdd * :set completefunc=emoji#complete
 
 " You can't stop me
 "cmap w!! w !sudo tee %

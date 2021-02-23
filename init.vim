@@ -7,6 +7,7 @@ source ~/.config/nvim/plugins/load.vim	" plugins
 
 source ~/.config/nvim/colors/config/sonokai.vim " sonokai theme
 "source ~/.config/nvim/colors/lonokai            " lonokai theme
+"source ~/.config/nvim/colors/config/seoul256.vim " sonokai theme
 "source ~/.config/nvim/colors/config/onedark.vim " onedark theme
 
 """ Airline's config is here :
