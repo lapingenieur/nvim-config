@@ -15,6 +15,11 @@ call plug#begin('~/.config/nvim/plugins/source')
     " Easy alignment on several line
     " **VERY** good doc over its github page
     Plug 'junegunn/vim-easy-align'
+    " rainbow parentheses/pairs
+    Plug 'junegunn/rainbow_parentheses.vim'
+    " Show content of registers in a split when @ or "
+    " NOTE: using my self distribution because I don't want nowrap setting
+    Plug 'lapingenieur/vim-peekaboo'
 
     " FZF
     " Make fzf look up until finds .git directory

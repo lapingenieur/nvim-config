@@ -1,8 +1,5 @@
 " insert mode remappings
 
-" vim-emoji (junegunn) plugin
-:inoremap <C-e> <C-x><:C-u>
-
 :inoremap iiq <Esc>
 :inoremap iia <Esc>
 :inoremap iiW <Esc>:w<Cr>
@@ -30,9 +27,8 @@
 :inoremap iiy <Esc>y
 :inoremap iiY <Esc>Ya
 :inoremap iip <Esc>lpa
-:inoremap iipp <Esc>lpa
-:inoremap iipP <Esc>pa
 :inoremap iiP <Esc>Pa
+" for copy pasting use <C-r>"regigster", see `:h i_CTRL-r`
 
 :inoremap iif <C-x><C-f>
 :inoremap iin <C-x><C-n>

@@ -4,6 +4,10 @@
 :nnoremap yy y$
 :nnoremap , $
 
+" remap undoing to U
+:nnoremap U <C-r>
+:nnoremap <expr> <C-r> peekaboo#wrap()
+
 " navigation (tab/TAB = next/prev buffer)
 nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>

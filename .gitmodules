@@ -46,3 +46,9 @@
 [submodule "plugins/source/vim-emoji"]
 	path = plugins/source/vim-emoji
 	url = https://github.com/junegunn/vim-emoji
+[submodule "plugins/source/rainbow_parentheses.vim"]
+	path = plugins/source/rainbow_parentheses.vim
+	url = https://github.com/junegunn/rainbow_parentheses.vim
+[submodule "plugins/source/vim-peekaboo"]
+	path = plugins/source/vim-peekaboo
+	url = https://github.com/lapingenieur/vim-peekaboo
