@@ -18,21 +18,25 @@ fun! Mytabs()
         echo "Mytabs : tab mode enabled, 1"
         let g:mytabsvar = 1
 
-        " navigation (C-hjkl)
-        nnoremap <C-h>    :tabn<Cr>
-        nnoremap <C-l>    :tabp<Cr>
+        " navigation (C-hjkl) (jk = next/prev window)
+        nnoremap <C-h>    :tabp<Cr>
+		nnoremap <C-j> <C-w>w
+		nnoremap <C-k> <C-w>W
+        nnoremap <C-l>    :tabn<Cr>
         " moving (M-hjkl)
         nnoremap <M-h>    :-tabm<Cr>
         nnoremap <M-l>    :+tabm<Cr>
         " new tab
         nnoremap <Space>n :tabe<Cr>
         nnoremap <Space>N :tabe<Cr>:e<Space>
-    else
+	else
         echo "Mytabs : tab mode disabled, 0"
         let g:mytabsvar = 0
 
         " navigation (C-hjkl)
         nnoremap <C-h> <C-w>h
+		nnoremap <C-j> <C-w>j
+		nnoremap <C-k> <C-w>k
         nnoremap <C-l> <C-w>l
         " resizing (M-hjkl)
         nnoremap <M-h>    :vertical resize -2<CR>
@@ -68,20 +72,22 @@ call SetupCommandAlias("QW","wq")
 let g:mymanvar = "0"
 
 fun! Myman()
+" myman() version 1.2 : cursor always go to bottom of view port (L)
 	if g:mymanvar == "0"
 		let g:mymanvar = "1"
-		vnoremap <Up> H3k
-		nnoremap <Up> H3k
-		vnoremap <Down> L3j
-		nnoremap <Down> L3j
-		vnoremap j L8j
-		vnoremap k H8k
-		nnoremap j L8j
-		nnoremap k H8k
-		vnoremap J L10j10j
-		vnoremap K H10k10k
-		nnoremap J L10j10j
-		nnoremap K H10k10k
+		normal L
+		vnoremap <Up> H3kL
+		nnoremap <Up> H3kL
+		vnoremap <Down> L3jL
+		nnoremap <Down> L3jL
+		vnoremap j L8jL
+		vnoremap k H8kL
+		nnoremap j L8jL
+		nnoremap k H8kL
+		vnoremap J L10j10jL
+		vnoremap K H10k10kL
+		nnoremap J L10j10jL
+		nnoremap K H10k10kL
 		echo "Myman : man mode enabled, 1"
 	else
 		if g:mymanvar != "1"

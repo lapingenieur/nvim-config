@@ -4,6 +4,8 @@ call plug#begin('~/.config/nvim/plugins/source')
     Plug 'jiangmiao/auto-pairs'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
+    " Startify - start page
+    Plug 'mhinz/vim-startify'
 
     " === Junegunn stuff
     " Hyperfocus writing (works with limelight)

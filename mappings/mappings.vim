@@ -22,8 +22,8 @@ cnoremap <C-c> <Esc>:noh<Cr>
 vnoremap <C-c> <Esc>:noh<Cr>
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+"inoremap <c-u> <ESC>viwUi
+"nnoremap <c-u> viwU<Esc>
 inoremap <M-u> <ESC>viwui
 nnoremap <M-u> viwu<Esc>
 
