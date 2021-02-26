@@ -22,10 +22,14 @@ cnoremap <C-c> <Esc>:noh<Cr>
 vnoremap <C-c> <Esc>:noh<Cr>
 
 " Easy CAPS
-"inoremap <c-u> <ESC>viwUi
-"nnoremap <c-u> viwU<Esc>
-inoremap <M-u> <ESC>viwui
-nnoremap <M-u> viwu<Esc>
+inoremap <M-u>U <ESC>viwUi
+nnoremap <M-u>U viwU<Esc>
+inoremap <M-u>u <ESC>viwui
+nnoremap <M-u>u viwu<Esc>
+nnoremap <space>u :echo "use meta-u and meta-U"<cr>
+nnoremap <space>U :echo "use meta-u and meta-U"<cr>
+inoremap <space>u <Esc>:echo "use meta-u and meta-U"<cr>
+inoremap <space>U <Esc>:echo "use meta-u and meta-U"<cr>
 
 " Better tabbing
 vnoremap < <gv
