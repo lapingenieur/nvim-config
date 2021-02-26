@@ -61,3 +61,6 @@
 [submodule "plugins/source/vim-journal"]
 	path = plugins/source/vim-journal
 	url = https://github.com/junegunn/vim-journal
+[submodule "plugins/source/calendar.vim"]
+	path = plugins/source/calendar.vim
+	url = https://github.com/itchyny/calendar.vim

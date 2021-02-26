@@ -8,6 +8,8 @@ call plug#begin('~/.config/nvim/plugins/source')
     Plug 'mhinz/vim-startify'
     " Commentary - comment out lines
     Plug 'tpope/vim-commentary'
+    " a calendar in vim with multiple views
+    Plug 'itchyny/calendar.vim'
 
     " === Junegunn stuff
     " Hyperfocus writing (works with limelight)
