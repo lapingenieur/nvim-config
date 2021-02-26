@@ -6,6 +6,8 @@ call plug#begin('~/.config/nvim/plugins/source')
     Plug 'norcalli/nvim-colorizer.lua'
     " Startify - start page
     Plug 'mhinz/vim-startify'
+    " Commentary - comment out lines
+    Plug 'tpope/vim-commentary'
 
     " === Junegunn stuff
     " Hyperfocus writing (works with limelight)
@@ -22,6 +24,9 @@ call plug#begin('~/.config/nvim/plugins/source')
     " Show content of registers in a split when @ or "
     " NOTE: using my self distribution because I don't want nowrap setting
     Plug 'lapingenieur/vim-peekaboo'
+    " Journal.vim - a junegunn-custom markup language
+    " Will probably create my own language(s) for markup and maybe more!
+    Plug 'junegunn/vim-journal'
 
     " FZF
     " Make fzf look up until finds .git directory
@@ -37,7 +42,7 @@ call plug#begin('~/.config/nvim/plugins/source')
 
     " === Syntax support
     " Better syntax support
-    Plug 'sheerun/vim-polyglot'
+    Plug 'lapingenieur/vim-polyglot'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

@@ -55,3 +55,9 @@
 [submodule "plugins/source/vim-startify"]
 	path = plugins/source/vim-startify
 	url = https://github.com/mhinz/vim-startify
+[submodule "plugins/source/vim-commentary"]
+	path = plugins/source/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "plugins/source/vim-journal"]
+	path = plugins/source/vim-journal
+	url = https://github.com/junegunn/vim-journal

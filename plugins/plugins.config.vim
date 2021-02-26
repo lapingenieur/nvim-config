@@ -1,3 +1,7 @@
+" (Polyglot/)csv.vim : lapingenieur distribution
+" Change `E` to `B` mapping in csv files
+let g:csv_bind_B = 1
+
 " Autopairs config
 " add <>
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", "<":">"}
@@ -32,6 +36,7 @@ let g:startify_custom_header = [
 " vim-emoji (junegunn) plugin
 :inoremap <C-e> <C-x><C-u>
 :nnoremap <C-e> :%s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g<Cr>:noh<Cr>
+:nnoremap <M-e> :s/:\([^:]\+\):/\=emoji#for(submatch(1), submatch(0))/g<Cr>:noh<Cr>
 
 " goyo
 let g:goyo_width = "70%"
