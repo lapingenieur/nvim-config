@@ -31,6 +31,18 @@ let g:startify_custom_header = [
         \ '                   /_/          /___/                          /____/',
         \]
 
+"=== Git stuff
+
+let g:signify_sign_delete = '-'
+let g:signify_sign_change = '!'
+let g:signify_sign_show_count = 0
+let g:signify_sign_show_text = 1
+
+nmap <leader>gj <plug>(signify-next-hunk)
+nmap <leader>gk <plug>(signify-prev-hunk)
+
+highlight! link SignifySignChange OrangeSign
+
 "=== Junegunn plugins :
 
 " vim-emoji (junegunn) plugin

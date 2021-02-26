@@ -11,6 +11,16 @@ call plug#begin('~/.config/nvim/plugins/source')
     " a calendar in vim with multiple views
     Plug 'itchyny/calendar.vim'
 
+    " === GIT integration
+    " add cool symbols
+    Plug 'mhinz/vim-signify'
+    " Git from within VIM
+    Plug 'tpope/vim-fugitive'
+    " fugitive extension 🤷
+    Plug 'tpope/vim-rhubarb'
+    " fugitive extension for commit browsing
+    Plug 'junegunn/gv.vim'
+
     " === Junegunn stuff
     " Hyperfocus writing (works with limelight)
     Plug 'junegunn/limelight.vim'
@@ -30,7 +40,7 @@ call plug#begin('~/.config/nvim/plugins/source')
     " Will probably create my own language(s) for markup and maybe more!
     Plug 'junegunn/vim-journal'
 
-    " FZF
+    " === FZF
     " Make fzf look up until finds .git directory
     " so it looks inside project
     Plug 'airblade/vim-rooter'
@@ -42,7 +52,7 @@ call plug#begin('~/.config/nvim/plugins/source')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
-    " === Syntax support
+    " === Syntax support and LSP
     " Better syntax support
     Plug 'lapingenieur/vim-polyglot'
     " Stable version of coc
