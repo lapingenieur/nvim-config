@@ -39,8 +39,9 @@ set formatoptions-=cro                  " Stop newline continution of comments
 "set autochdir                           " Your working directory will always be the same as your working directory
 set wildmenu
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
-au! BufWritePost $MYVIMRC echo "reloaded init.vim"
+" 2 lines just below were diappointing me
+"au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+"au! BufWritePost $MYVIMRC echo "reloaded init.vim"
 au! VimEnter * :set completefunc=emoji#complete
 au! BufAdd * :set completefunc=emoji#complete
 

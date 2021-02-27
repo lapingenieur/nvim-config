@@ -12,3 +12,6 @@ source ~/.config/nvim/colors/config/sonokai.vim " sonokai theme
 
 """ Airline's config is here :
 source ~/.config/nvim/colors/config/airline.vim
+
+""" Post boot settings :
+source ~/.config/nvim/postboot/load.vim
