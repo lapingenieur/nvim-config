@@ -61,8 +61,10 @@ call plug#begin('~/.config/nvim/plugins/source')
     " === Colorschemes
     " onedark - for tests
     Plug 'joshdick/onedark.vim'
-    " sonokai - monokai clone
-    Plug 'sainnhe/sonokai'
+    " sonokai - monokai clone - unneeded because of lonokai.vim (which also includes sonokai)
+    "Plug 'sainnhe/sonokai'
+    " lonokai - my own sonokai fork
+    Plug 'lapingenieur/lonokai'
     " seoul256 - seoul clone from junegunn
     Plug 'junegunn/seoul256.vim'
 call plug#end()

@@ -76,3 +76,6 @@
 [submodule "plugins/source/gv.vim"]
 	path = plugins/source/gv.vim
 	url = https://github.com/junegunn/gv.vim
+[submodule "plugins/source/lonokai"]
+	path = plugins/source/lonokai
+	url = https://github.com/lapingenieur/lonokai

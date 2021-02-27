@@ -11,7 +11,8 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
 " Switch to your current theme
-let g:airline_theme = 'sonokai'
+" NOTE: Theme is set in colorscheme configs
+"let g:airline_theme = 'sonokai'
 
 " Always show tabs
 set showtabline=2
