@@ -4,6 +4,7 @@
 :inoremap iia <Esc>
 :inoremap iiW <Esc>:w<Cr>
 :inoremap iiw <Esc>:w<Cr>a
+:inoremap <c-s> <esc>:w<cr>a
 
 :inoremap iio <Esc>o
 :inoremap iiO <Esc>O

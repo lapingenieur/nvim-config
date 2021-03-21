@@ -26,10 +26,12 @@ inoremap <M-u>U <ESC>viwUi
 nnoremap <M-u>U viwU<Esc>
 inoremap <M-u>u <ESC>viwui
 nnoremap <M-u>u viwu<Esc>
+inoremap <M-u> <Esc>:echo "use \<m-u\>U for maj and \<m-u\>u for min"<Cr>a
+nnoremap <M-u> :echo "use \<m-u\>U for maj and \<m-u\>u for min"<Cr>
 nnoremap <space>u :echo "use meta-u and meta-U"<cr>
 nnoremap <space>U :echo "use meta-u and meta-U"<cr>
-inoremap <space>u <Esc>:echo "use meta-u and meta-U"<cr>
-inoremap <space>U <Esc>:echo "use meta-u and meta-U"<cr>
+"inoremap <space>u <Esc>:echo "use meta-u and meta-U"<cr>
+"inoremap <space>U <Esc>:echo "use meta-u and meta-U"<cr>
 
 " Better tabbing
 vnoremap < <gv
