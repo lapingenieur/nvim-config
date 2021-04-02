@@ -1,4 +1,0 @@
-Using "vim-plug" for plugin management
-vim-plug's config and used plugins stay in ./vim-plug.config.vim
-plugin sources should be downloaded and stored in ./source
-plugin configs should stay in ./plugins.config.vim
