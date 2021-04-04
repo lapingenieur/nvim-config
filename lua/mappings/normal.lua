@@ -2,19 +2,22 @@
 vim.api.nvim_set_keymap('n', '', '', {noremap = true})
 --]]
 
-vim.api.nvim_set_keymap('n', ' ', '<nop>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<space>', '<nop>', {noremap = true})
 vim.g.mapleader = ' '
 
 ------------------------------------------------------------------------------
+
+-- this line comes from lua/plugins/nvimtree.lua, because it didn't there work but does here (??)
+vim.api.nvim_set_keymap('n', '<leader>t', ':NvimTreeToggle<cr>', {noremap = true, silent = true})
 
 vim.api.nvim_set_keymap('n', '<c-h>', '<c-w>h', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-j>', '<c-w>j', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-k>', '<c-w>k', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-l>', '<c-w>l', {noremap = true})
-vim.api.nvim_set_keymap('n', '<m-h>', ':resize -2<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<m-j>', ':vert resize +2<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<m-k>', ':vert resize -2<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<m-l>', ':resize +2<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<m-h>', ':vert resize -2<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<m-j>', ':resize +1<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<m-k>', ':resize -1<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<m-l>', ':vert resize +2<cr>', {noremap = true})
 
 vim.api.nvim_set_keymap('n', 'yy', 'y$', {noremap = true})
 vim.api.nvim_set_keymap('n', 'U', '<c-r>', {noremap = true})
