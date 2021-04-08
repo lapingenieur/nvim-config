@@ -2,14 +2,14 @@
 vim.api.nvim_set_keymap('i', '', '', {noremap = true})
 --]]
 
-vim.api.nvim_set_keymap('n', '<c-c>', '<esc>:noh<cr>:<bs>', {noremap = true})
+vim.api.nvim_set_keymap('i', '<c-c>', '<esc>:noh<cr>:<bs>', {noremap = true})
 
 vim.api.nvim_set_keymap('i', 'iiq', '<esc>', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iia', '<esc>', {noremap = true})
 vim.api.nvim_set_keymap('i', '<c-q>', '<esc>', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iiw', '<esc>:w<cr>a', {noremap = true})
+vim.api.nvim_set_keymap('i', '<c-s>', '<esc>:w<cr>a', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iiW', '<esc>:w<cr>', {noremap = true})
-vim.api.nvim_set_keymap('i', '<c-s>', '<esc>:w<cr>', {noremap = true})
 
 vim.api.nvim_set_keymap('i', 'iio', '<esc>o', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iiO', '<esc>O', {noremap = true})

@@ -27,7 +27,7 @@ set expandtab
 set smartindent
 set autoindent
 
-"set laststatus=0
+set laststatus=0
 set number
 set cursorline
 set background=dark

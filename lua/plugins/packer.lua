@@ -18,6 +18,14 @@ return require('packer').startup(function()
   -- extended icons
   use 'kyazdani42/nvim-web-devicons'
 
+  -- ==== Status line ==== --
+  -- airline
+  use 'vim-airline/vim-airline'
+  use 'vim-airline/vim-airline-themes'
+  -- barbar
+  -- can't figure out how to customize colors !!!!
+  --use 'romgrk/barbar.nvim'
+
   -- ==== Colorschemes ==== --
   -- lonokai - my own sonokai fork
   use 'lapingenieur/lonokai'

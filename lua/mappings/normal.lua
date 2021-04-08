@@ -9,6 +9,7 @@ vim.g.mapleader = ' '
 
 -- this line comes from lua/plugins/nvimtree.lua, because it didn't there work but does here (??)
 vim.api.nvim_set_keymap('n', '<leader>t', ':NvimTreeToggle<cr>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<c-t>', ':NvimTreeToggle<cr>', {noremap = true, silent = true})
 
 vim.api.nvim_set_keymap('n', '<c-h>', '<c-w>h', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-j>', '<c-w>j', {noremap = true})
