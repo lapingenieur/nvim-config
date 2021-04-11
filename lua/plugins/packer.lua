@@ -13,10 +13,32 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
 
   -- ==== General utils ==== --
-  -- a coc-explorer kinda file explorer
-  use 'kyazdani42/nvim-tree.lua'
+  -- startify
+  use 'mhinz/vim-startify'
   -- extended icons
   use 'kyazdani42/nvim-web-devicons'
+  -- file explorer
+  -- not as good as coc-explorer ...
+  use 'kyazdani42/nvim-tree.lua'
+  -- auto pairs
+  use 'jiangmiao/auto-pairs'
+  -- Colorizer
+  use 'norcalli/nvim-colorizer.lua'
+  -- Commenting
+  use "terrortylor/nvim-comment"
+  -- Markdown Preview
+  use {'iamcco/markdown-preview.nvim', run = 'cd app && npm install'}
+
+  -- ==== Junegunn stuff ==== --
+  -- Hyperfocus writing (works with limelight)
+  use 'junegunn/limelight.vim'
+  -- Goyo focusing (works with limelight)
+  use 'junegunn/goyo.vim'
+  -- Emojis (my own fork)
+  use 'lapingenieur/vim-emoji'
+  -- Easy alignment
+  -- VERY good doc over github
+  use 'junegunn/vim-easy-align'
 
   -- ==== Status line ==== --
   -- airline

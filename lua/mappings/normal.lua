@@ -5,6 +5,9 @@ vim.api.nvim_set_keymap('n', '', '', {noremap = true})
 vim.api.nvim_set_keymap('n', '<space>', '<nop>', {noremap = true})
 vim.g.mapleader = ' '
 
+-- goyo and limelight mappings, other config in lua/plugins/goyo-limelight.vim
+vim.api.nvim_set_keymap('n', '<leader>g', ':Goyo<cr>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>l', ':Limelight!!<cr>', {noremap = true, silent = true})
 ------------------------------------------------------------------------------
 
 -- this line comes from lua/plugins/nvimtree.lua, because it didn't there work but does here (??)

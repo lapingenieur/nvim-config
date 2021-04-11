@@ -1,6 +1,6 @@
 vim.g.nvim_tree_width = 35
 vim.g.nvim_tree_ignore = { '.git' }
-vim.g.nvim_tree_auto_open = 1
+--vim.g.nvim_tree_auto_open = 1
 vim.g.nvim_tree_indent_markers = 1
 vim.g.nvim_tree_width_allow_resize = 1
 vim.g.nvim_tree_add_trailing = 1

@@ -22,7 +22,7 @@ vim.api.nvim_set_keymap('i', 'iir', '<insert>', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iiz', '<esc>ZZ', {noremap = true})
 
 vim.api.nvim_set_keymap('i', 'iii', 'ii', {noremap = true})
-vim.api.nvim_set_keymap('i', 'iie', '<esc>f"i\\033[0m', {noremap = true})
+--vim.api.nvim_set_keymap('i', 'iie', '<esc>f"i\\033[0m', {noremap = true})
 vim.api.nvim_set_keymap('i', 'iiE', '<esc>oecho ', {noremap = true})
 
 vim.api.nvim_set_keymap('i', 'iiu', '<esc>ua', {noremap = true})
