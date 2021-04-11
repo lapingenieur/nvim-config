@@ -39,6 +39,15 @@ return require('packer').startup(function()
   -- Easy alignment
   -- VERY good doc over github
   use 'junegunn/vim-easy-align'
+  -- Rainbow Pairs
+  -- clears some polyglot highlighting !!!!
+  --use 'junegunn/rainbow_parentheses.vim'
+  -- Show content of registers in a split when @ or "
+  -- NOTE: using my self distribution because I don't want nowrap setting
+  use 'lapingenieur/vim-peekaboo'
+  -- Journal.vim - a junegunn-custom markup language
+  -- Will probably create my own language(s) for markup and maybe more! -- done :) it's mlog
+  use 'junegunn/vim-journal'
 
   -- ==== Status line ==== --
   -- airline
@@ -47,6 +56,10 @@ return require('packer').startup(function()
   -- barbar
   -- can't figure out how to customize colors !!!!
   --use 'romgrk/barbar.nvim'
+
+  -- ==== LSP and syntax ==== --
+  -- modified polyglot (changed csv things)
+  use 'lapingenieur/vim-polyglot'
 
   -- ==== Colorschemes ==== --
   -- lonokai - my own sonokai fork

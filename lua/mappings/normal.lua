@@ -8,6 +8,8 @@ vim.g.mapleader = ' '
 -- goyo and limelight mappings, other config in lua/plugins/goyo-limelight.vim
 vim.api.nvim_set_keymap('n', '<leader>g', ':Goyo<cr>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>l', ':Limelight!!<cr>', {noremap = true, silent = true})
+-- peekaboo wraping (lapingenieur feature)
+vim.api.nvim_set_keymap('n', '<C-r>', 'peekaboo#wrap()', {noremap = true, expr = true})
 ------------------------------------------------------------------------------
 
 -- this line comes from lua/plugins/nvimtree.lua, because it didn't there work but does here (??)
